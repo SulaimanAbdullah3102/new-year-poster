@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather", serif;
+
+}
+
+/* banner style start */
+.banner-container {
+    max-width: 1320px;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0, 0.3);
+    background-image: url(../images/Banner\ Image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 5px;
+}
+
+.banner-content {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    padding-top: 100px;
+}
+
+.banner-content p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.banner-content .heading {
+    padding-bottom: 50px;
+}
+
+.banner-content .heading h1 {
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 75px;
+    text-align: center;
+}
+
+/* banner style end */
+
+/* descount section style start */
+
+.descount-section {
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-writing {
+    font-family: Inter;
+}
+
+.section-writing h1 {
+    color: rgb(255, 0, 0);
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 107px;
+    margin-bottom: 48px;
+}
+
+.section-writing p {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.section-writing h3 {
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.descount-img {
+    width: 802.9px;
+    height: 500px;
+}
+
+.descount-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* descount section style end */
+
+.midnight-section {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 120px;
+    display: flex;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-image: url(../images/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+.leftside-content {
+    width: 65%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 126px;
+    padding-top: 126px;
+}
+
+.leftside-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 75px;
+    letter-spacing: 11%;
+    text-align: left;
+}
+
+.leftside-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.leftside-content span{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.rightside-content{
+    width: 35%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
